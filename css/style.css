@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: #1c252f;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#textContainer{
+    font-family: Poppins;
+    font-size: 12px;
+    margin-top: -2em;
+    margin-left: -1em;
+    font-weight: 500;
+    position: absolute;
+}
+.container-box{
+    height: 34em;
+    width: 50em;
+    /* background-color: rgb(255, 0, 0); */
+    background-color: #0f1216;
+    margin-top: 10em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2);
+}
+.title-container{
+    display: flexbox;
+}
+.header-title {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: white;
+}
+.dash{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 45px;
+    margin-top: 15px;
+    width: 80px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+.about-head{
+    color: white;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.discord-a {
+    text-decoration: none;
+    color: #5865f2;
+}
+.about-text{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 5em;
+    margin-left: 45px;
+}
+
+.hobbies-title {
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.hobbies-text{
+    font-family: Poppins;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 5em;
+    margin-left: 45px;
+    color: white;
+}
+#github{
+    text-decoration: none;
+    color: white;
+}
+#github:hover{
+    transition: 0.3s;
+    color: #FEE715;
+    cursor: default;
+}
+.discord-a2{
+    text-decoration: none;
+    color: white;
+}
+#discord:hover{
+    transition: 0.3s;
+    color: #FEE715;
+}
+.icons-container{
+    margin-left: 25em;
+    margin-top: 3em;
+    word-spacing: 15px;
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    display: flexbox;
+}
+#warning{
+    color: rgb(255, 77, 0);
+    font-style: italic;
+}
+.fivem-a{
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+}
+.maintenance-container{
+    height: 2em;
+    background-color: #0f1216;
+    border-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-style: none;
+    border-bottom-style: none;
+    text-align: center;
+    width: 20em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 5em;
+}
+.maintenance-text{
+    font-family: Poppins;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
